@@ -7,8 +7,6 @@
     <title>welcome</title>
     <link rel="stylesheet" href="css/home.css">
 
-    
-    
 </head>
 <body>
     <!-- Navigation Section -->
@@ -21,8 +19,8 @@
                     <button class="search-btn">search</button>
                 </div>
                 <a href="login.html"><img src="Images/user.jpg" alt=""></a>
-                <a href="#"><img src="Images/heart_logo.png" alt=""></a>
-                <a href="#"><img src="Images/cart.png" alt=""></a>
+                <a href="wishlist.html" target="_blank"><img src="Images/heart_logo.png" alt=""></a>
+                <a href="addtocart.html" target="_blank"><img src="Images/cart.png" alt=""></a>
             </div>
         </div>
         <ul class="links-container">
@@ -43,56 +41,80 @@
     <section class="product">
         <h2 class="product-category">best selling</h2>
         <!-- products container with 5 products-->
+        <button class="pre-btn"><img src="Images/arrow.png" alt=""></button>
+        <button class="nxt-btn"><img src="Images/arrow.png" alt=""></button>
             <div class="product-container">
                 <div class="product-card">
                     <div class="product-image">
-                        <span class="discount-tag">50% off</span>
-                        <a href="products.html" ><img src="Images/iwatch1.jpg" class="product-thumb" alt="">
+                        <span class="discount-tag">5% off</span>
+                        <a href="TV_Elect.html" ><img src="Image_TV/sonyh.jpg" class="product-thumb" alt="">
                         <button class="card-btn">Add To Whislist</button></a>
                     </div>
                     <div class="product-info">
-                        <h2 class="product-brand">IWatch</h2>
+                        <h2 class="product-brand">Sony Speaker</h2>
                         <p class="product-short-des">a short line about the Gadgets..</p>
-                        <span class="price">&#x20B9;2000</span><span class="actual-price">&#x20B9;4000</span>
+                        <span class="price">&#x20B9;9,490</span><span class="actual-price">&#x20B9;9,990</span>
                     </div>
                 </div>
                 <div class="product-card">
                     <div class="product-image">
-                        <span class="discount-tag">50% off</span>
-                        <a href="products.html" > <img src="Images/redmi3.jpg" class="product-thumb" alt="">
+                        <span class="discount-tag">20% off</span>
+                        <a href="headphones(product).html" > <img src="Images/boat100.jpg" class="product-thumb" alt="">
                         <button class="card-btn">Add To Whislist</button></a>
                     </div>
                     <div class="product-info">
-                        <h2 class="product-brand">Xiao Mi</h2>
+                        <h2 class="product-brand">boAt Rockerz </h2>
                         <p class="product-short-des">a short line about the Gadgets..</p>
-                        <span class="price">&#x20B9;2000</span><span class="actual-price">&#x20B9;4000</span>
+                        <span class="price">&#x20B9;4500 </span><span class="actual-price">&#x20B9; 5500 </span>
                     </div>
                 </div>
                 <div class="product-card">
                     <div class="product-image">
-                        <span class="discount-tag">50% off</span>
-                        <a href="products.html" > <img src="Images/dell2.jpeg" class="product-thumb" alt="">
+                        <span class="discount-tag">45% off</span>
+                        <a href="TV_Elect.html" > <img src="Image_TV/samtv1.jpg" class="product-thumb" alt="">
                         <button class="card-btn">Add To Whislist</button></a>
                     </div>
                     <div class="product-info">
-                        <h2 class="product-brand">Dell</h2>
+                        <h2 class="product-brand">LG TV</h2>
                         <p class="product-short-des">a short line about the Gadgets..</p>
-                        <span class="price">&#x20B9;2000</span><span class="actual-price">&#x20B9;4000</span>
+                        <span class="price">&#x20B9;32,990</span><span class="actual-price">&#x20B9;59,990 </span>
                     </div>
                 </div>
                 <div class="product-card">
                     <div class="product-image">
-                        <span class="discount-tag">50% off</span>
-                        <a href="Laptops.html" > <img src="Images/lenovo21.jpeg" class="product-thumb" alt="">
+                        <span class="discount-tag">40% off</span>
+                        <a href="Laptops.html" > <img src="Images/Lapi8.jpg" class="product-thumb" alt="">
                         <button class="card-btn">Add To Whislist</button></a>
                     </div>
                     <div class="product-info">
-                        <h2 class="product-brand">lenovo</h2>
+                        <h2 class="product-brand">HP</h2>
                         <p class="product-short-des">a short line about the Gadgets..</p>
-                        <span class="price">&#x20B9;2000</span><span class="actual-price">&#x20B9;4000</span>
+                        <span class="price">&#x20B9;20,000</span><span class="actual-price">&#x20B9;48,900</span>
                     </div>
                 </div>
             </div>
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            <!-- Slider JS -->
+            <script>
+                const productContainers = [...document.querySelectorAll('.product-container')];
+                const nxtBtn = [...document.querySelectorAll('.nxt-btn')];
+                const preBtn = [...document.querySelectorAll('.pre-btn')];
+
+                productContainers.forEach((item, i) => {
+                let containerDimenstions = item.getBoundingClientRect();
+                let containerWidth = containerDimenstions.width;
+
+                    nxtBtn[i].addEventListener('click', () => {
+                        item.scrollLeft += containerWidth;
+                    })
+
+                    preBtn[i].addEventListener('click', () => {
+                        item.scrollLeft -= containerWidth;
+                    })
+                })
+            </script>
+        </div>
         </section>
         <section class="product">
             <div>
@@ -112,13 +134,13 @@
                 <div class="product-card">
                     <div class="product-image">
                         <span class="discount-tag">50% off</span>
-                        <a href="products.html" > <img src="Images/mac_air.jpeg" class="product-thumb" alt="">
+                        <a href="products.html" > <img src="Images/Lapi1.jpg" class="product-thumb" alt="">
                         <button class="card-btn">Add To Whislist</button></a>
                     </div>
                     <div class="product-info">
-                        <h2 class="product-brand">MacBooK Air</h2>
+                        <h2 class="product-brand">ASUS</h2>
                         <p class="product-short-des">a short line about the Gadgets..</p>
-                        <span class="price">&#x20B9;2000</span><span class="actual-price">&#x20B9;4000</span>
+                        <span class="price">&#x20B9;30,990</span><span class="actual-price">&#x20B9; 40,990</span>
                     </div>
                 </div>
                 <div class="product-card">
