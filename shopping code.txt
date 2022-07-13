@@ -1,0 +1,232 @@
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products</title>
+    <link rel="stylesheet" href="style.css">
+<!-- Font Awesome Icon Library -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+.checked {
+  color: orange;
+<img align="top/left/bottom/middle/right" src="https://image3.mouthshut.com/images/ImagesR/imageuser_m/2017/11/925747536-4559193-1.png?rnd=38062" width="200" height="200" >  
+<Title>     
+Align an Image  
+</Title>  
+
+}
+</style>
+</head>
+<body>
+<h1 style="text-align:center; background:red;">ONLINE SHOPPING</h1>
+<h1>HEADPHONES</h1>
+<span>
+<img align="left" src= "1.png" class = "img-box" width= 250><h3>BOAT Brand</h3>
+<text class="discript-text1" >It is wireless connection.<br>
+Fast charging mode.<br>
+<text class="discript-text-rupess3">10% OFF Rs:<strike>1900</strike></text>
+<span class="discript-percen-logo"><img src="offer-percentage.jpg" width=40 height=40></span>
+<span class="price">Rs:1800<a href = "@" class="btn-cart"><img src= "cart.png" width= 30 height= 25></a></span>
+<br><br>
+<input type="submit" value="ADD TO CART" button class="btn" style="background-color:Yellow";>
+<br>
+<br>
+<h2>Product Rating</h2>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star"></span>
+<span class="fa fa-star"></span><br>
+<span><br>
+<form>
+      </form>
+        </span>
+    </span>
+</span>
+<hr>
+<img align="left" src= "2.png" class = "img-box" width= 250><h3>BOAT Brand</h3>
+<text class="discript-text1" >It is wireless connection.<br>
+Fast charging mode.<br>
+<text class="discript-text-rupess3">10% OFF Rs:<strike>1900</strike></text>
+<span class="discript-percen-logo"><img src="offer-percentage.jpg" width=40 height=40></span>
+<span class="price">Rs:1800<a href = "@" class="btn-cart"><img src= "cart.png" width= 30 height= 25></a></span>
+<br><br>
+<input type="submit" value="ADD TO CART" button class="btn" style="background-color:Yellow";>
+
+<h2>Product Rating</h2>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star "></span>
+<span class="fa fa-star"></span>
+<span class="fa fa-star"></span><br>
+<span><br>
+<form>
+      </form>
+        </span>
+    </span>
+</span>
+<br>
+<hr>
+<img align="left" src= "3.png" class = "img-box" width= 250><h3>BOAT Brand</h3>
+<text class="discript-text1" >It is wireless connection.<br>
+Fast charging mode.<br>
+<text class="discript-text-rupess3">10% OFF Rs:<strike>1900</strike></text>
+<span class="discript-percen-logo"><img src="offer-percentage.jpg" width=40 height=40></span>
+<span class="price">Rs:1800<a href = "@" class="btn-cart"><img src= "cart.png" width= 30 height= 25></a></span><br><br>
+<input type="submit" value="ADD TO CART" button class="btn" style="background-color:Yellow";>
+
+<h2>Product Rating</h2>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked "></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star"></span><br>
+<span><br>
+<form>
+      </form>
+        </span>
+    </span>
+</span>
+<br>
+<hr>
+<img align="left" src= "5.png" class = "img-box" width= 250><h3>BOAT Brand</h3>
+<text class="discript-text1" >It is wireless connection.<br>
+Fast charging mode.<br>
+<text class="discript-text-rupess3">10% OFF Rs:<strike>1900</strike></text>
+<span class="discript-percen-logo"><img src="offer-percentage.jpg" width=40 height=40></span>
+<span class="price">Rs:1800<a href = "@" class="btn-cart"><img src= "cart.png" width= 30 height= 25></a></span><br><br>
+<input type="submit" value="ADD TO CART" button class="btn" style="background-color:Yellow";>
+
+<h2>Product Rating</h2>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star"></span>
+<span class="fa fa-star"></span><br>
+<br>
+<span><br>
+<form>
+      </form>
+        </span>
+    </span>
+</span>
+<br>
+<hr>
+<img align="left" src= "Boat.png" class = "img-box" width= 250><h3>BOAT Brand</h3>
+<text class="discript-text1" >It is wireless connection.<br>
+Fast charging mode.<br>
+<text class="discript-text-rupess3">10% OFF Rs:<strike>1900</strike></text>
+<span class="discript-percen-logo"><img src="offer-percentage.jpg" width=40 height=40></span>
+<span class="price">Rs:1800<a href = "@" class="btn-cart"><img src= "cart.png" width= 30 height= 25></a></span><br><br>
+<input type="submit" value="ADD TO CART" button class="btn" style="background-color:Yellow";>
+<h2>Product Rating</h2>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star"></span>
+<span class="fa fa-star"></span><br>
+<br>
+<span><br>
+<form>
+      </form>
+        </span>
+    </span>
+</span>
+<br>
+<hr>
+<img align="left" src= "Realme.jpg" class = "img-box" width= 250><h3>REALME Brand</h3>
+<text class="discript-text1" >It is wireless connection.<br>
+Fast charging mode.<br>
+<text class="discript-text-rupess3">10% OFF Rs:<strike>1900</strike></text>
+<span class="discript-percen-logo"><img src="offer-percentage.jpg" width=40 height=40></span>
+<span class="price">Rs:1800<a href = "@" class="btn-cart"><img src= "cart.png" width= 30 height= 25></a></span><br><br>
+<input type="submit" value="ADD TO CART"  button class="btn" style="background-color:Yellow";>
+
+<h2>Product Rating</h2>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star"></span>
+<span class="fa fa-star"></span><br>
+<span><br>
+<form>
+      </form>
+        </span>
+    </span>
+</span>
+<br>
+<hr>
+<img align="left" src= "shopping.webp" class = "img-box" width= 250><h3>BOAT Brand</h3>
+<text class="discript-text1" >It is wireless connection.<br>
+Fast charging mode.<br>
+<text class="discript-text-rupess3">10% OFF Rs:<strike>1900</strike></text>
+<span class="discript-percen-logo"><img src="offer-percentage.jpg" width=40 height=40></span>
+<span class="price">Rs:1800<a href = "@" class="btn-cart"><img src= "cart.png" width= 30 height= 25></a></span><br><br>
+<input type="submit" value="ADD TO CART" button class="btn" style="background-color:Yellow";>
+<h2>Product Rating</h2>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star"></span>
+<span class="fa fa-star"></span><br>
+<span><br>
+<form>
+      </form>
+        </span>
+    </span>
+</span>
+<br>
+<hr>
+<img align="left" src= "vivo.jpg" class = "img-box" width= 250><h3>VIVO Brand</h3>
+<text class="discript-text1" >It is wireless connection.<br>
+Fast charging mode.<br>
+<text class="discript-text-rupess3">10% OFF Rs:<strike>1900</strike></text>
+<span class="discript-percen-logo"><img src="offer-percentage.jpg" width=40 height=40></span>
+<span class="price">Rs:1800<a href = "@" class="btn-cart"><img src= "cart.png" width= 30 height= 25></a></span><br><br>
+<input type="submit" value="ADD TO CART" button class="btn" style="background-color:Yellow";>
+<h2>Product Rating</h2>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star"></span>
+<span class="fa fa-star"></span><br>
+<span><br>
+<form>
+      </form>
+        </span>
+    </span>
+</span>
+<br>
+<br>
+<br>
+<hr>
+<img align="left" src= "mi.jpg" class = "img-box" width= 250><h3>MI Brand</h3>
+<text class="discript-text1" >It is wireless connection.<br>
+Fast charging mode.<br>
+<text class="discript-text-rupess3">10% OFF Rs:<strike>1900</strike></text>
+<span class="discript-percen-logo"><img src="offer-percentage.jpg" width=40 height=40></span>
+<span class="price">Rs:1800<a href = "@" class="btn-cart"><img src= "cart.png" width= 30 height= 25></a></span><br><br>
+<input type="submit" value="ADD TO CART" button class="btn" style="background-color:Yellow";>
+<h2>Product Rating</h2>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span><br>
+<span><br>
+<form>
+      </form>
+        </span>
+    </span>
+</span>
+</body>
+</html>
+
+
+
+
+
+
+
